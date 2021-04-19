@@ -1,7 +1,9 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+h1 {
+    text-align: center;
+}
+
+.dice {
+    display: flex;
 }
 
 [class^="face-"] {
@@ -45,7 +47,18 @@ body {
     align-self: flex-end;
 }
 
+.face-4 {
+    justify-content: space-between;
+}
+
+.face-4 .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 footer {
     padding-top: 3em;
     text-align: center;
+    font-size: 25px;
 }
