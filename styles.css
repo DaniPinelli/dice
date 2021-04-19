@@ -18,6 +18,14 @@ body {
     align-items: center;
 }
 
+.face-2 {
+    justify-content: space-between;
+}
+
+.face-2 .dot:nth-child(2) {
+    align-self: flex-end;
+}
+
 .dot {
     width: 24px;
     height: 24px;
