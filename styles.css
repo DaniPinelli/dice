@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+[class^="face-"] {
+    background: #333;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    display: flex;
+    margin: 1em;
+}
+
+.face-1 {
+    justify-content: center;
+    align-items: center;
+}
+
+.dot {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #eee;
+}
+
+footer {
+    padding-top: 3em;
+    text-align: center;
+}
